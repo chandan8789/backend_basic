@@ -4,7 +4,6 @@ import {
   getBannerData,
 } from "../controller/banner-controller.js";
 import upload from "../plugin/multer.js";
-import { protect } from "../middleware/auth-middleware.js";
 
 const bannerRouter = express.Router();
 
